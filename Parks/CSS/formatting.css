@@ -1,0 +1,155 @@
+/*  
+Formats the body of all the HTML script.
+*/
+
+body {
+	font:15px arial;
+	color:grey;
+	text-align:center;
+	background-image:url('../images/background.jpg');
+	background-repeat:no-repeat;
+	background-position:top;
+	background-attachment:fixed;
+	text-decoration:none;
+}
+
+/*  
+Creates a background margin for the content div.
+*/
+
+
+.margin {
+	width: 1000px;
+	background-color:white;
+}
+
+
+/*  
+Sets the width of the container
+*/
+
+.container {
+	width: 1000px; 
+	margin:0 auto;         
+}
+         
+/*  
+Formats the height of the header inside the container with the background image.
+*/
+         
+.header {
+	height: 100px;
+	background: url('../images/banner.png') center no-repeat;
+}
+
+/*  
+Creates the menu list bar for navigation.
+*/
+
+.menu ul {
+	list-style-type: none;
+	background:grey;
+	height:35px;
+	margin:0;
+	-webkit-padding-start: 0px;
+}
+
+/*  
+Sets the lists to align to the left of the bar.
+*/
+
+.menu li {
+	float:left;
+}
+
+/*  
+Sets a class to align just the register and logon items to the right.
+*/
+
+.menu li.right {
+	float:right;
+}
+
+/*  
+Sets the format for the menu boxes themselves.
+*/
+
+.menu li a {
+	background:grey;
+	color:white;
+	display:block;
+	line-height:35px;
+	padding:0px 40px;
+	text-decoration:none;
+}
+
+/*  
+Sets the format for the menu boxes when your curser hovers over them.
+*/
+
+.menu li a:hover, .menu ul li:hover a {
+	background:lightgrey;
+	color:white;
+	text-decoration:none;
+}
+
+/*  
+Formats the content box inside the container for our main content of the website.
+*/
+
+.content {
+	text-align:left;
+	background-color:white;
+	min-height: 500px; 
+	margin:30px;
+}
+
+/*  
+Formats the footer inside the container.
+*/
+
+.footer { 
+	vertical-align:middle;
+	text-align:center;
+
+	color:white;
+	background-color:grey;
+	height:35px;
+	font-size:10px;
+}
+
+/*  
+Formats the tables to fit to the width of the content
+*/
+
+table {
+	width:100%;
+}
+
+/*  
+Formats the table columns to fit to 20% each.
+*/
+
+table td {
+	width:20%; 
+	text-align:left;
+	vertical-align: top;
+}
+
+/*  
+Formats the table columns with the names in them to be 40%.
+*/
+
+table td.name {
+	width:40%; 
+	text-align:left;
+	vertical-align: top;
+}
+
+/*  
+Sets the height of the map that displays the park markers.
+*/
+
+#map { 
+	height: 180px; 
+}
